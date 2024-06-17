@@ -23,3 +23,29 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+.timer {
+  margin: 15px;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.field {
+  display: flex;
+  flex-flow: column;
+  font-size: 25px;
+}
+
+.value {
+  font-weight: 700;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.label {
+  font-size: 1rem;
+}
+
+.input:focus {
+  outline: transparent;
+  border-color: #604eff;
+}
